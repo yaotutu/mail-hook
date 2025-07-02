@@ -1,0 +1,16 @@
+{
+  "name": "mail-hook",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "IMAP邮件监听服务",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "imapflow": "^1.0.189",
+    "mailparser": "^3.7.4",
+    "nodemailer": "^7.0.4"
+  }
+}

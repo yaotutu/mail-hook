@@ -1,0 +1,14 @@
+你是一个资深的 Node.js 工程师，请使用 JavaScript 和 ESM（即 ES Module）语法，帮我编写一个项目。
+
+项目功能：
+- 监听一个邮箱账户，使用 IMAP 协议实时获取新邮件（例如使用 imapflow 库）
+- 每当有新邮件到达时，提取邮件的基本内容（主题、发件人、正文）
+- 然后将这些信息通过 HTTP POST 的方式调用一个指定的 Webhook 接口进行转发
+
+项目要求：
+- 所有代码使用 ESM 模块（即 import/export 语法）
+- 使用 async/await 编写异步逻辑，避免回调地狱
+- 文件结构清晰，推荐拆分成 imap 监听模块、webhook 模块、主入口文件
+- 项目可运行在 Node.js 18+，无需 Babel 或 TypeScript
+- 如果使用第三方库，请说明用途并包含 npm 安装命令
+
