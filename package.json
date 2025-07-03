@@ -5,7 +5,9 @@
   "description": "IMAP邮件监听服务",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js fetch",
+    "listen": "node index.js listen",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "dotenv": "^17.0.1",
